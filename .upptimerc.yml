@@ -22,24 +22,24 @@ secrets:
   - STATUS_CNAME
 
 sites:
-  - name: $S1N
+  - name: 主站
     url: $S1U
-  - name: $S2N
+  - name: 日榜 API + D1
     url: $S2U
-  - name: $S3N
+  - name: CDN / B2 Worker	
     url: $S3U
-  - name: $S4N
+  - name: Cloudflare API
     url: $S4U
-  - name: $S5N
+  - name: B2 S3 API
     url: $S5U
-  - name: $S6N
+  - name: GitHub
     url: $S6U
-  - name: $S7N
+  - name: Pixiv
     url: $S7U
 
 status-website:
   # 如果沒有自訂網域，請將下面這行 cname 刪除或加 # 註解掉
-  cname: $STATUS_CNAME
+  cname: noshoka.org
   # baseUrl: /your-repo-name
   # logoUrl: $STATUS_LOGO_URL
   name: 書庫大廳
@@ -49,7 +49,6 @@ status-website:
     - title: 幻書目錄
       href: /
     - title: 讀姬的手稿
-      href: https://$STATUS_CNAME
-
+      href: https://noshoka.org
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
