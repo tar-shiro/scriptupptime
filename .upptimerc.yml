@@ -3,6 +3,24 @@
 owner: $OWNER
 repo: $REPO
 
+# 🔻 必須明確列出所有用到 Secret 變數名稱，GitHub Actions 才能順利讀取
+secrets:
+  - S1N
+  - S1U
+  - S2N
+  - S2U
+  - S3N
+  - S3U
+  - S4N
+  - S4U
+  - S5N
+  - S5U
+  - S6N
+  - S6U
+  - S7N
+  - S7U
+  - STATUS_CNAME
+
 sites:
   - name: $S1N
     url: $S1U
@@ -10,20 +28,20 @@ sites:
     url: $S2U
   - name: $S3N
     url: $S3U
-  - name: $S7N
-    url: $S7U
   - name: $S4N
     url: $S4U
   - name: $S5N
     url: $S5U
   - name: $S6N
     url: $S6U
+  - name: $S7N
+    url: $S7U
+
 status-website:
-  # Add your custom domain name , or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+  # 如果沒有自訂網域，請將下面這行 cname 刪除或加 # 註解掉
   cname: $STATUS_CNAME
   # baseUrl: /your-repo-name
-  #logoUrl: $STATUS_LOGO_URL
+  # logoUrl: $STATUS_LOGO_URL
   name: 書庫大廳
   introTitle: 幻書封印狀態總覽
   introMessage: "*「愚蠢的人類啊，想要窺探惡魔的智慧嗎？」*"
@@ -31,7 +49,7 @@ status-website:
     - title: 幻書目錄
       href: /
     - title: 讀姬的手稿
-      href: $STATUS_CNAME
+      href: https://$STATUS_CNAME
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
