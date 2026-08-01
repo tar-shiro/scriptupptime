@@ -26,7 +26,7 @@ status-website:
   #logoUrl: $STATUS_LOGO_URL
   name: 書庫大廳
   introTitle: 幻書封印狀態總覽
-  introMessage: *「愚蠢的人類啊，想要窺探惡魔的智慧嗎？」*
+  introMessage: "*「愚蠢的人類啊，想要窺探惡魔的智慧嗎？」*"
   navbar:
     - title: 幻書目錄
       href: /
