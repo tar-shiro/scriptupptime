@@ -1,31 +1,37 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Upptime 支援使用預設環境變數自動取得 owner 與 repo
+owner: $OWNER
+repo: $REPO
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
-
+  - name: $S1N
+    url: $S1U
+  - name: $S2N
+    url: $S2U
+  - name: $S3N
+    url: $S3U
+  - name: $S7N
+    url: $S7U
+  - name: $S4N
+    url: $S4U
+  - name: $S5N
+    url: $S5U
+  - name: $S6N
+    url: $S6U
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: $STATUS_CNAME
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  #logoUrl: $STATUS_LOGO_URL
+  name: 書庫大廳
+  introTitle: 幻書封印狀態總覽
+  introMessage: *「愚蠢的人類啊，想要窺探惡魔的智慧嗎？」*
   navbar:
-    - title: Status
+    - title: 幻書目錄
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: 讀姬的手稿
+      href: $STATUS_CNAME
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
