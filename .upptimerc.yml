@@ -1,7 +1,7 @@
 # Change these first
 # Upptime 支援使用預設環境變數自動取得 owner 與 repo
-owner: $OWNER
-repo: $REPO
+owner: /
+repo: /
 
 sites:
   - name: $S1N
