@@ -28,6 +28,8 @@ sites:
     url: $S2U
   - name: CDN	
     url: $S3U
+    headers:
+      - "Referer: https://noshoka.org/"
   - name: Cloudflare API
     url: $S4U
   - name: B2 S3 API
@@ -38,6 +40,8 @@ sites:
     url: $S7U
   - name: Worker實例（備用）
     url: $S8U
+    headers:
+      - "Referer: https://noshoka.org/"
 
 status-website:
   # 如果沒有自訂網域，請將下面這行 cname 刪除或加 # 註解掉
@@ -46,7 +50,7 @@ status-website:
   # logoUrl: $STATUS_LOGO_URL
   name: 書庫大廳
   introTitle: 幻書封印狀態總覽
-  introMessage: "*「愚蠢的人類啊，想要窺探惡魔的智慧嗎？」*"
+  introMessage: "*愚蠢的人類啊，想要窺探惡魔的智慧嗎？*"
   navbar:
     - title: 幻書目錄
       href: /
