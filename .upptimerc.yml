@@ -37,7 +37,7 @@ sites:
   - name: Pixiv
     url: $S7U
   - name: Worker實例（備用）
-  - url: $S8U
+    url: $S8U
 
 status-website:
   # 如果沒有自訂網域，請將下面這行 cname 刪除或加 # 註解掉
