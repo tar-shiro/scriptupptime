@@ -40,18 +40,20 @@
     "url": "$S3U",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "cdn",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 150,
-    "timeDay": 150,
-    "timeWeek": 150,
-    "timeMonth": 150,
-    "timeYear": 150,
-    "dailyMinutesDown": {}
+    "status": "down",
+    "uptime": "98.84%",
+    "uptimeDay": "98.84%",
+    "uptimeWeek": "98.84%",
+    "uptimeMonth": "98.84%",
+    "uptimeYear": "98.84%",
+    "time": 96,
+    "timeDay": 96,
+    "timeWeek": 96,
+    "timeMonth": 96,
+    "timeYear": 96,
+    "dailyMinutesDown": {
+      "2026-08-02": 1
+    }
   },
   {
     "name": "Cloudflare API",
@@ -77,18 +79,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "b2-s3-api",
     "status": "down",
-    "uptime": "48.05%",
-    "uptimeDay": "48.05%",
-    "uptimeWeek": "48.05%",
-    "uptimeMonth": "48.05%",
-    "uptimeYear": "48.05%",
+    "uptime": "46.57%",
+    "uptimeDay": "46.57%",
+    "uptimeWeek": "46.57%",
+    "uptimeMonth": "46.57%",
+    "uptimeYear": "46.57%",
     "time": 285,
     "timeDay": 285,
     "timeWeek": 285,
     "timeMonth": 285,
     "timeYear": 285,
     "dailyMinutesDown": {
-      "2026-08-02": 308,
+      "2026-08-02": 351,
       "2026-08-01": 384
     }
   },
@@ -134,18 +136,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "worker",
     "status": "down",
-    "uptime": "49.02%",
-    "uptimeDay": "49.02%",
-    "uptimeWeek": "49.02%",
-    "uptimeMonth": "49.02%",
-    "uptimeYear": "49.02%",
+    "uptime": "0.42%",
+    "uptimeDay": "0.42%",
+    "uptimeWeek": "0.42%",
+    "uptimeMonth": "0.42%",
+    "uptimeYear": "0.42%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2026-08-02": 0
+      "2026-08-02": 43
     }
   }
 ]
