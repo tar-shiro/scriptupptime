@@ -39,7 +39,7 @@ sites:
 
 status-website:
   # 如果沒有自訂網域，請將下面這行 cname 刪除或加 # 註解掉
-  cname: noshoka.org
+  cname: status.noshoka.org
   # baseUrl: /your-repo-name
   # logoUrl: $STATUS_LOGO_URL
   name: 書庫大廳
