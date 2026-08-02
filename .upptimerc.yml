@@ -19,14 +19,14 @@ secrets:
   - S6U
   - S7N
   - S7U
-  - STATUS_CNAME
+  - S8U
 
 sites:
   - name: 主站
     url: $S1U
   - name: 日榜 API + D1
     url: $S2U
-  - name: CDN / B2 Worker	
+  - name: CDN	
     url: $S3U
   - name: Cloudflare API
     url: $S4U
@@ -36,6 +36,8 @@ sites:
     url: $S6U
   - name: Pixiv
     url: $S7U
+  - name: Worker實例（備用）
+  - url: $S8U
 
 status-website:
   # 如果沒有自訂網域，請將下面這行 cname 刪除或加 # 註解掉
