@@ -1,7 +1,7 @@
 url: $S2U
-status: up
-code: 200
-responseTime: 1136
-lastUpdated: 2026-08-03T12:00:13.811Z
+status: down
+code: 401
+responseTime: 34
+lastUpdated: 2026-08-03T18:28:23.084Z
 startTime: 2026-08-01T15:18:32.371Z
 generator: Upptime <https://github.com/upptime/upptime>
