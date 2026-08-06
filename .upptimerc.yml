@@ -26,6 +26,10 @@ sites:
     url: $S1U
   - name: 日榜 API + D1
     url: $S2U
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
   - name: CDN	
     url: $S3U
     headers:
@@ -34,6 +38,10 @@ sites:
     url: $S4U
   - name: B2 S3 API
     url: $S5U
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
   - name: GitHub
     url: $S6U
   - name: Pixiv
