@@ -32,8 +32,10 @@ sites:
       - 403
   - name: CDN	
     url: $S3U
-    headers:
-      - "Referer: https://noshoka.org/"
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
   - name: Cloudflare API
     url: $S4U
   - name: B2 S3 API
