@@ -1,7 +1,7 @@
 url: $S3U
-status: down
+status: up
 code: 403
-responseTime: 47
-lastUpdated: 2026-08-19T23:49:00.559Z
+responseTime: 55
+lastUpdated: 2026-08-20T10:10:07.251Z
 startTime: 2026-08-02T13:36:55.892Z
 generator: Upptime <https://github.com/upptime/upptime>
